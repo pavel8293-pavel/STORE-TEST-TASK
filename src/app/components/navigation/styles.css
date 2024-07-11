@@ -1,0 +1,25 @@
+nav {
+    padding: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+  }
+
+  .nav-link.active {
+    font-weight: bold;
+  }

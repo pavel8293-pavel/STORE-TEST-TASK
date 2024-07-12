@@ -1,4 +1,4 @@
-import React, { memo, Suspense } from "react";
+import React, { Suspense } from "react";
 
 import FullscreenLoader from "../components/fullscreenLoader";
 import routeNames from "./routeNames";
@@ -27,4 +27,4 @@ const ApplicationRouter = (): JSX.Element => {
     );
 };
 
-export default memo(ApplicationRouter);
+export default ApplicationRouter;

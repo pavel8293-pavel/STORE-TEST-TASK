@@ -4,7 +4,7 @@ import { handleError } from "../../helpers";
 import { localization } from "../../localization";
 import { SuccessToast } from "../../components/toast/SuccessToast";
 import Button from "../../components/button";
-import Input from "../../components/inputs/Input";
+import Input from "../../components/input";
 import "./styles.css"
 
 const NewProduct = () => {

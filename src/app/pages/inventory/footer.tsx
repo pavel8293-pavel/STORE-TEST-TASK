@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import Button from "../../components/button";
 import { localization } from "../../localization";
 
@@ -25,4 +25,4 @@ const InventoryFooter: React.FC<InventoryFooterProps> = ({ onSaveInventoryList, 
     );
 };
 
-export default InventoryFooter;
+export default memo(InventoryFooter);

@@ -1,6 +1,6 @@
-import React from "react";
+import React, { memo } from "react";
 import Select from "../../components/select";
-import Input from "../../components/inputs/Input";
+import Input from "../../components/input";
 import { ProductEntity, InventoryEntity } from "../../interfaces";
 import Button from "../../components/button";
 import { localization } from "../../localization";
@@ -48,4 +48,4 @@ const InventoryHeader: React.FC<InventoryHeaderProps> = ({
     );
 };
 
-export default InventoryHeader;
+export default memo(InventoryHeader);

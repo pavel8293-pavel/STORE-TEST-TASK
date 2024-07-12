@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { memo, useMemo } from "react";
 import { InventoryEntity } from "../../interfaces";
 import InventoryItem from "./item";
 
@@ -17,6 +17,4 @@ const InventoryList: React.FC<InventoryListProps> = ({ items, onDelete }) => {
   return <ul className="list">{renderedItems}</ul>;
 };
 
-
-
-export default InventoryList;
+export default memo(InventoryList);
